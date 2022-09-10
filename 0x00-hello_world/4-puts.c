@@ -1,4 +1,4 @@
-#include <stdio.h>
+#includ <stdio.h>
 /**
  * main - print the string using put function
  * Return: Always 0 (Success)
