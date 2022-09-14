@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main -  print _putchar
  * Return: Always 0 (Success)
@@ -12,12 +12,12 @@ int main(void)
 	while(i < 9)
 
 	{
-		putchar(put[i]);
+		_putchar(put[i]);
 
 		i++;
 
 	}
-	putchar('\n');
+	_putchar('\n');
 
 	return (0);
 }
