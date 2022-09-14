@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * mian - prints "_putchar.c" followes by new line.
+ * main - prints "_putchar.c" followes by new line.
  * Return: Always 0 (Success)
  */
 int main(void)
-
 {
 	_putchar('_');
 	_putchar('p');
@@ -17,5 +16,4 @@ int main(void)
 	_putchar('\n');
 
 	return (0);
-
 }
