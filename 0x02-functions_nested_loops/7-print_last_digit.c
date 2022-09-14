@@ -4,15 +4,15 @@
  * @a: last digit of a number
  * Return: Always 0 (Success)
  */
-int print_last_digit(int)
+int print_last_digit(int a)
 
 {
-	char last[] = '12345';
+	char last[] = "15";
 	{
 		int i=0; 
-		while ( i <=4)
+		while ( i <=2)
 		{
-			return (last[4]);
+			return (last[2]);
 		}
 	}
 	_putchar('\n');
