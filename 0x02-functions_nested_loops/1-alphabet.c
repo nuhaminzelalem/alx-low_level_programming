@@ -7,13 +7,12 @@ void print_alphabet(void)
 
 {
 	char put[] = "abcdefghijklmnopqrstuvwxyz";
-	
-	for (int i = 0; i < 26; i++)
+int i = 0;	
+	for (i = 0; i < 26; i++)
 	{
 		_putchar(put[i]);
 
 	}
 	_putchar('\n');
 
-	return (0);
 }
