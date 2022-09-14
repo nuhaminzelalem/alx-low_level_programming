@@ -7,13 +7,17 @@
 int _abs(int n)
 
 {
-	if (n < 1)
+	int abso;
+
+	if (n < 0)
 	{
-		_putchar(n*(-1));
+		abso = n * -1;
+		_putchar(abso);
 	}
 	else
 	{
-		_putchar(n*1);
+		abso = n * 1;
+		_putchar(n);
 	}
 	_putchar('\n');
 }
