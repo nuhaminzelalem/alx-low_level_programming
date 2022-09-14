@@ -1,21 +1,26 @@
+/*
+ * File: 0-putchar.c
+ *
+ */
+
 #include "main.h"
+
 /**
- * main - prints _putchar
- * Return: Always 0 (Success)
+ * main - Prints "_putchar" followed by a new line.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
-char word[] = "_putchar";
-	int i;
-
-	for (i = 0; i < 8 ; i++)
-	{
-<<<<<<< HEAD
-		_putchar(word[i]);
-=======
-		_putchar('word[i]');
->>>>>>> d5147f48088e96f675831df8f2161401247d8f9d
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
