@@ -1,4 +1,4 @@
-#include "mian.h"
+#include "main.h"
 /**
  * int _islower - print 1 if c is lowercase 0 if c is uppercase
  * Return: Always 0 (Success)
