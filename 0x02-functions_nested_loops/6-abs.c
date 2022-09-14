@@ -12,13 +12,12 @@ int _abs(int n)
 	if (n < 0)
 	{
 		abso = n * -1;
-		_putchar(abso);
+		return (abso);
 	}
 	else
 	{
 		abso = n * 1;
-		_putchar(n);
+		return (abso);
 	}
 	_putchar('\n');
-	return (abso);
 }
