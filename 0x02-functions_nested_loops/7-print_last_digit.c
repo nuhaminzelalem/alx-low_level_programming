@@ -7,13 +7,15 @@
 int print_last_digit(int a)
 
 {
-	char last[] = "15";
+	int b;
+	int last[] = 12;
 	{
 		int i=0; 
-		while ( i <=2)
+		while ( i <=1)
 		{
-			return (last[2]);
+			return (b = last[i]);
 		}
 	}
+	return (last[b]);
 	_putchar('\n');
 }
