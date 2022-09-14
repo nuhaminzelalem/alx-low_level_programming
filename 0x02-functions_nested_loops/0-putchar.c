@@ -14,8 +14,10 @@ int main(void)
 	{
 		_putchar(put[i]);
 
-		i++;
+		_putchar('put[i]');
 
+		i++;
+ 
 	}
 	_putchar('\n');
 
