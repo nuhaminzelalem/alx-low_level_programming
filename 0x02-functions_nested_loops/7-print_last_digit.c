@@ -8,14 +8,17 @@ int print_last_digit(int a)
 
 {
 	int b;
-	int last[] = 12;
+	b = a % 10;
+
+	if (a < 0)
 	{
-		int i=0; 
-		while ( i <=1)
-		{
-			return (b = last[i]);
-		}
+		b = -1 * b;
+		return (b);
 	}
-	return (last[b]);
-	_putchar('\n');
+	else 
+	{
+		return (b);
+	}
+	_putchar ('\n');
 }
+	
