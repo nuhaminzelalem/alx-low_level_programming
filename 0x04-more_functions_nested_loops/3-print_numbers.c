@@ -9,11 +9,11 @@ void print_numbers(void)
 {
 	if (c >= 48 && c <= 57)
 	{
-		_putchar(1);
+		_putchar(c);
 	}
 	else
 	{
-		_putchar(0);
+		_putchar(c);
 	}
 	_putchar('\n');
 }
