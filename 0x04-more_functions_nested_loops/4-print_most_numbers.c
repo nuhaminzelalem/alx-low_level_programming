@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* main - print except 2 and 4
-* Return: Alwaays 0 (Success)
-*/
+ * main - print except 2 and 4
+ * Return: Alwaays 0 (Success)
+ */
 void print_most_numbers(void)
 
 {
