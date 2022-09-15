@@ -1,14 +1,15 @@
 #include "main.h"
 /**
  * mul - print mul
- * @a b : a*b
+ * @a: a 
+ * @b: b
  * Return: Always 0 (Sucess)
  */
  int mul(int a, int b)
 
 {
-	int mul;
+	int mul1;
 	
-	mul = a * b;
-}
+	mul1 = a * b;
+	return (mul1);
 }
