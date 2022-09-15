@@ -8,11 +8,7 @@ void print_numbers(void)
 {
 	int c;
 
-	if (c >= 48 && c <= 57)
-	{
-		_putchar(c);
-	}
-	else
+	for (c = 48; c <= 57; c++)
 	{
 		_putchar(c);
 	}
