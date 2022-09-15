@@ -1,12 +1,13 @@
 #include "main.h"
 /**
 * print_numbers - iis it digit
-* @c: check wheather it is digit or not
 * Return: Always 0 (Success)
 */
 void print_numbers(void)
 
 {
+	int c;
+
 	if (c >= 48 && c <= 57)
 	{
 		_putchar(c);
