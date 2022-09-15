@@ -2,7 +2,7 @@
 /**
  * main - print 14 times
  * Return: Always 0 (Sucess)
- */
+*/
 void more_numbers(void)
 
 {
