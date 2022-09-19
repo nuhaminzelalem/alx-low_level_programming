@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * reset - function that take a pointer as input
+ * reset_to_98 - function that take a pointer as input
  * @n: pointer parameter
  * Return: 0
  */
