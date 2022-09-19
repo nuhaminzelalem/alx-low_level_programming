@@ -10,10 +10,8 @@
 {
 	int temp;
 
-	temp = &a;
 	temp = *a;
 	*b = temp;
-	a = &b;
 	*a = *b;
 }
 
