@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _strcat - concatnet
- * @s1: var1
- * @s2: var2
+ * @dest: var1
+ * @src: var2
  * Return: 0
  */
 char *_strcat(char *dest, char *src)
