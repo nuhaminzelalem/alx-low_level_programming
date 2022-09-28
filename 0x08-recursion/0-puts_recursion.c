@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * puts_recursion - recursion
  * @s: string
