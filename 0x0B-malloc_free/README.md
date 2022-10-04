@@ -1,0 +1,1 @@
+malloc automatic mermory alocation
